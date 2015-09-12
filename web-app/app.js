@@ -1,9 +1,9 @@
 //ES6 Javascript   Babel -> JS
-//import React from 'react'
-
-var React = require('react');
+import React from 'react'
+import Label from './components/Label'
+import CLabel from './components/CLabel'
 
 React.render(
-  <div>Hola Mundo</div>,
-  document.getElementById('workspace')
+  <CLabel />,
+  document.body
 ); //JSX: Fb React
