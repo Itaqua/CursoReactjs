@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node -e 'console.log(\"HOLa\");'",
+    "yolo": "git add --all && git commit -am \"$(date)\" && npm version minor && git push origin master --tags",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
