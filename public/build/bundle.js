@@ -47,10 +47,17 @@
 	//ES6 Javascript   Babel -> JS
 	//import React from 'react'
 
+	"use strict";
+
 	var React = __webpack_require__(1);
 
 	//React.render(<div>Hola Mundo</div>, document.body); //JSX: Fb React
-	React.render(React.DOM.div(['Hola Mundo'],{}), document.body)
+	React.render(React.DOM.div(null, "Hola Mundo Feliz"), document.body);
+	// React.render(React.createElement(
+	//     'div',
+	//     null,
+	//     'Hola Mundo'
+	//   ), document.body);
 
 /***/ },
 /* 1 */
