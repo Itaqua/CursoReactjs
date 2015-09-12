@@ -4,7 +4,7 @@
   "description": "Curso para consgrucción de UI usando React",
   "main": "index.js",
   "scripts": {
-    "start": "node -e 'console.log(\"HOLa\");'",
+    "start": "webpack",
     "yolo": "git add --all && git commit -am \"$(date)\" && npm version minor && git push origin master --tags",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
