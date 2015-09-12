@@ -1,4 +1,5 @@
 var getConfig = require('hjs-webpack')
+var WebpackNotifierPlugin = require('webpack-notifier')
 
 config = getConfig({
   // entry point for the app
@@ -22,5 +23,6 @@ config.resolve.extensions.push('.cjsx');
 config.resolve.extensions.push('.coffee');
 config.module.loaders.push({ test: /\.cjsx$/, loader: 'react-hot!coffee-loader!cjsx-loader'});
 config.module.loaders.push({ test: /\.coffee$/, loader: 'coffee-loader' });
+config.plugins.push(new WebpackNotifierPlugin());
 
 module.exports = config

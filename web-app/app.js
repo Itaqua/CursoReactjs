@@ -1,9 +1,9 @@
 //ES6 Javascript   Babel -> JS
 import React from 'react'
-import List  from './components/List'
+import Page1  from './pages/Page1'
 import data  from './test/data'
 
 React.render(
-  <List list={data} />,
+  <Page1 list={data}/>,
   document.body
 ); //JSX: Fb React
