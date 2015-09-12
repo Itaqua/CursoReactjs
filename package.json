@@ -1,0 +1,25 @@
+{
+  "name": "CursoReactjs",
+  "version": "1.0.0",
+  "description": "Curso para consgrucción de UI usando React",
+  "main": "index.js",
+  "scripts": {
+    "start": "node -e 'console.log(\"HOLa\");'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Itaqua/CursoReactjs.git"
+  },
+  "keywords": [
+    "react",
+    "npm",
+    "curso"
+  ],
+  "author": "Octavio Luna <octavio.luna@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Itaqua/CursoReactjs/issues"
+  },
+  "homepage": "https://github.com/Itaqua/CursoReactjs"
+}
