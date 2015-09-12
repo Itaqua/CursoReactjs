@@ -1,9 +1,9 @@
 //ES6 Javascript   Babel -> JS
 import React from 'react'
-import Label from './components/Label'
-import CLabel from './components/CLabel'
+import List  from './components/List'
+import data  from './test/data'
 
 React.render(
-  <CLabel />,
+  <List list={data} />,
   document.body
 ); //JSX: Fb React

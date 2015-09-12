@@ -2,6 +2,6 @@ import React from 'react'
 
 export default React.createClass({
   render (){
-    return <div>Hola Mundo Facilidades</div>
+    return <div>Hola {this.props.persona.name}!</div>
   }
 })
